@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { ConfigRenderer } from "../lib/hybrid-ui";
-import { useConfigRenderer } from "../lib/hybrid-ui/hooks";
-import { componentRegistry } from "../lib/hybrid-ui/core/ComponentRegistry";
+import { ConfigRenderer } from "../lib/config-ui";
+import { useConfigRenderer } from "../lib/config-ui/hooks";
+import { componentRegistry } from "../lib/config-ui/core/ComponentRegistry";
 import { fetchHomePageConfig } from "../features/ecommerce-home/api/homePageApi";
 import { getConfigById, configOptions } from "../features/ecommerce-home/api/configOptions";
 import {
@@ -20,7 +20,7 @@ import {
   ConfigSwitcher,
   DemoNavigation,
 } from "../features/ecommerce-home/components";
-import type { UIConfig, ComponentError } from "../lib/hybrid-ui/types";
+import type { UIConfig, ComponentError } from "../lib/config-ui/types";
 
 // Register all components
 componentRegistry.register("Navbar", {

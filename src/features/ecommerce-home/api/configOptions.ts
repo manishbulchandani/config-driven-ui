@@ -1,4 +1,4 @@
-import type { UIConfig } from '../../../lib/hybrid-ui/types';
+import type { UIConfig } from '../../../lib/config-ui/types';
 
 // Configuration 1: E-commerce Focus (Original)
 export const ecommerceConfig: UIConfig = {

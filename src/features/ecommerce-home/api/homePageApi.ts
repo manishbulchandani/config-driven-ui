@@ -1,4 +1,4 @@
-import type { UIConfig } from '../../../lib/hybrid-ui/types';
+import type { UIConfig } from '../../../lib/config-ui/types';
 
 // Simulated backend response for homepage configuration
 export const fetchHomePageConfig = async (): Promise<UIConfig> => {

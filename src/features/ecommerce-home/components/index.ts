@@ -13,7 +13,7 @@ export { ConfigSwitcher } from './ConfigSwitcher';
 export { DemoNavigation } from './DemoNavigation';
 
 // Register all components helper
-import { componentRegistry } from '../../../lib/hybrid-ui';
+import { componentRegistry } from '../../../lib/config-ui';
 import { Navbar } from './Navbar';
 import { FestivalBanner } from './FestivalBanner';
 import { ProductGrid } from './ProductGrid';
